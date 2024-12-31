@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://via.placeholder.com/1920x1080.png?text=Background+Image') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.balance p {
+  font-size: 32px;
+  margin: 5px 0;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.expenses table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.expenses th, .expenses td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.expenses th {
+  background: #4caf50;
+  color: white;
+}
+
+.add-entry h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#entry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#entry-form label {
+  font-size: 14px;
+}
+
+#entry-form input, #entry-form select, #entry-form button {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+#entry-form button {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#entry-form button:hover {
+  background: #0056b3;
+}
